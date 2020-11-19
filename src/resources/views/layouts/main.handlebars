@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TienNguyen's App</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+    <div class="app">
+        {{> header}}    {{!-- Insert file .handlebars in partials folder --}}
+
+        <div class="container">
+            {{{body}}}  {{!-- Insert file .handlebars in views folder --}}
+        </div>
+
+        {{> footer}}    {{!-- Insert file .handlebars in partials folder --}}
+    </div>
+
+</body>
+</html>
